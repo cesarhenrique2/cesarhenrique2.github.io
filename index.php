@@ -67,7 +67,7 @@
       $fetchClientes = $sql->fetchAll();
 
       foreach ($fetchClientes as $key => $value){
-        echo ''.$value['nome'].'|'.$value['cpf'].'|'.$value['email'].'<button onclick=\></button><a href="?delete='.$value['cod_cliente'].'">(Excluir Cliente)</a>'."<a href='alterar.php'>Alterar</a>";}
+        echo ''.$value['nome'].'|'.$value['cpf'].'|'.$value['email'].'<button onclick=\></button><a href="?delete='.$valu['cod_cliente'].'">(Excluir Cliente)</a>'."<a href='alterar.php'>Alterar</a>";}
 
        
     ?>
